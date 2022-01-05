@@ -114,12 +114,9 @@ body {
 .poduct_item {
   display: flex;
   max-width: 890px;
-  margin: 39px 0;
+  margin: 39px 0 0;
 }
 
-.poduct_item:last-of-type {
-  margin: 0;
-}
 .product__item-img {
   border-radius: 12px;
 }
@@ -176,9 +173,10 @@ body {
   line-height: 32px;
 }
 
-.product__btn {
-  margin-top: 30px;
-  margin-left: 40%;
+.product_btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 29px;
 }
 
 .form__field {
@@ -187,4 +185,15 @@ body {
   align-items: center;
   margin: 10px 0 28px;
   width: 400px;
+}
+
+.form__field_massage {
+  padding-bottom: 90px;
+  height: 113px;
+}
+
+.form_btn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 70px;
 }
