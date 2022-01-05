@@ -24,21 +24,21 @@ body {
   height: 100%;
 }
 
-.nav {
-}
 .menu__list {
   display: flex;
   margin: 0;
   padding: 0;
   list-style: none;
 }
-.menu_item {
+
+.header_link {
+  color: #fff;
 }
+
 .menu_link {
   font-size: 16px;
   line-height: 34px;
   text-decoration: none;
-  color: #fff;
   margin: 0 16px;
 }
 .nav__link_active {
@@ -196,4 +196,34 @@ body {
   display: flex;
   justify-content: center;
   margin-bottom: 70px;
+}
+
+.footer {
+  height: 120px;
+  background-color: #f3f3f3;
+}
+
+.nav__footer {
+  margin-top: 10px;
+}
+
+.footer_link {
+  color: #4a4a4a;
+}
+
+.copyright-link {
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 32px;
+  color: #db7093;
+  text-decoration: none;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_btn {
+  margin-top: 60px;
 }
