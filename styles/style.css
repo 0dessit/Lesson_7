@@ -194,7 +194,7 @@ body {
   height: 113px;
 }
 
-.form_btn {
+.form__btn {
   display: flex;
   justify-content: center;
   margin-bottom: 70px;
